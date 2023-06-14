@@ -152,6 +152,7 @@ body {
   /* colors */
   --clr-primary: #ee4266;
   --clr-white: #f8f4f9;
+  --clr-link: #b4b4b4;
   --clr-dark: #0a0f0d;
   --clr-accent: #ffc53a;
   --clr-success: #54d534;
@@ -180,4 +181,15 @@ h3 {
   font-family: var(--ff-body);
   font-size: var(--fs-500);
   font-weight: 500;
+}
+
+h4 {
+  font-family: var(--ff-body);
+  font-size: var(--fs-400);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-dark);
 }

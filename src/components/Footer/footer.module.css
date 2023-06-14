@@ -1,0 +1,105 @@
+footer {
+  background-color: var(--clr-dark);
+  padding-top: 20px;
+  color: var(--clr-white);
+}
+
+.footerTop {
+  padding-block: 10px;
+}
+
+.footerTop h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footerTop p,
+.footerTop a {
+  text-align: center;
+  color: var(--clr-link);
+  font-size: var(--fs-200);
+  padding-bottom: 10px;
+}
+
+.footerBody {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerBody .company,
+.footerBody .products,
+.footerBody .gc {
+  padding-bottom: 20px;
+}
+
+.footerBody li a {
+  color: var(--clr-link);
+}
+
+.footerSAndL {
+  display: flex;
+  /* justify-content: space-between; */
+}
+h4 {
+  padding-bottom: 7px;
+}
+.li {
+  padding-bottom: 7px;
+  font-size: var(--fs-200);
+  color: var(--clr-link);
+}
+.footerS {
+  flex: 1;
+}
+
+.footerL li {
+  font-size: var(--fs-200);
+  padding: 7px 0;
+  color: var(--clr-link);
+}
+
+.footerBtmSocials {
+  display: flex;
+
+  justify-content: center;
+  flex: 1;
+}
+
+.footerBtmSocials .instagram {
+  margin: 0 10px;
+}
+
+.footerEnd {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-size: var(--fs-200);
+  color: var(--clr-link);
+}
+.footerTerms {
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+  .footerTop h3,
+  .footerTop p,
+  .footerTop a {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .footerBody,
+  .footerSAndL,
+  .footerEnd {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .footerEnd,
+  .footerSAndL {
+    align-items: center;
+  }
+}
