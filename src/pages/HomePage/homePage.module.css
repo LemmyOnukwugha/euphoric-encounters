@@ -1,0 +1,46 @@
+.container {
+  padding: 0 1.25em;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.visuals {
+  display: flex;
+  height: 500px;
+}
+.matchGallery {
+  flex: 1;
+  background-color: aqua;
+  position: relative;
+}
+.backwardBtn {
+  position: absolute;
+  top: 45%;
+  left: 0;
+}
+
+.forwardBtn {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+.matchProfile {
+  width: 400px;
+  background-color: gainsboro;
+}
+
+.faTimes {
+  color: red;
+}
+.tbMessages {
+  color: rgb(107, 107, 246);
+}
+
+.faCheck {
+  color: var(--clr-success);
+}
+
+.matchCTA {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}

@@ -1,5 +1,7 @@
 .header {
   background-color: var(--clr-primary);
+  top: 0;
+  position: sticky;
 }
 
 .content {
