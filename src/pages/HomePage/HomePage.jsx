@@ -7,6 +7,7 @@ import {
   FaAngleDoubleRight,
 } from "react-icons/fa";
 import { TbMessage2 } from "react-icons/tb";
+import MatchProfile from "../../containers/Layout/MatchProfile/MatchProfile";
 
 export default function HomePage() {
   return (
@@ -21,7 +22,9 @@ export default function HomePage() {
               <FaAngleDoubleRight size={50} />
             </button>
           </div>
-          <div className={styles.matchProfile}></div>
+          <div className={styles.matchProfile}>
+            <MatchProfile />
+          </div>
         </div>
         <div className={styles.matchCTA}>
           <button className={styles.ctaCancel}>
